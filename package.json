@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Blog com painel admin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henri-debug/blog-admin.git"
+  },
+  "author": "Henrique Liberato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henri-debug/blog-admin/issues"
+  },
+  "homepage": "https://github.com/Henri-debug/blog-admin#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
